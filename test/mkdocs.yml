@@ -5,12 +5,6 @@ site_name: Sample Document
 theme:
   name: "material"
 
-# ページの順番を指定 ( 階層構造にもできる )
-pages:
-  - Home: "index.md"
-  - About: "about.md"
-  - Links: "link.md"
-
 # その他の設定
 extra:
   search:
@@ -18,10 +12,6 @@ extra:
   font:
     text: "Noto Sans JP"  # フォントの変更
     code: "Consolas"  # 埋め込みコードのフォントの変更
-
-# マークダウンに関する設定
-markdown_extensions:
-  - fontawesome_markdown  # 画像なしでアイコンを挿入するための拡張
 
 # CSS の設定
 extra_css:
