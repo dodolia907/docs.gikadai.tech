@@ -1,1 +1,31 @@
-site_name: My Docs
+# ドキュメントのタイトル ( ブラウザのタブなどに表示される )
+site_name: Sample Document
+
+# テーマの指定 ( mkdocs-material を指定する )
+theme:
+  name: "material"
+
+# ページの順番を指定 ( 階層構造にもできる )
+pages:
+  - Home: "index.md"
+  - About: "about.md"
+  - Links: "link.md"
+
+# その他の設定
+extra:
+  search:
+    language: "ja"  # 日本語での検索に対応
+  font:
+    text: "Noto Sans JP"  # フォントの変更
+    code: "Consolas"  # 埋め込みコードのフォントの変更
+
+# マークダウンに関する設定
+markdown_extensions:
+  - fontawesome_markdown  # 画像なしでアイコンを挿入するための拡張
+
+# CSS の設定
+extra_css:
+  - "css/custom.css"  # このあと作成する CSS ファイル
+  - "//fonts.googleapis.com/earlyaccess/notosansjp.css"  # 外部 CSS の読み込みを行いフォントを帰る
+  - "//fonts.googleapis.com/css?family=Open+Sans:600,800"
+  - "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"

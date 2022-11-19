@@ -1,17 +1,12 @@
-# Welcome to MkDocs
+# Welcome to gikadai.tech Docs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Experiment
+※実験サービスです。急に仕様が変わったり，利用できなくなったりする可能性があります。
 
-## Commands
+### Minecraftサーバー
+Minecraft Java Edition (Windows/Mac/Linux)
+Minecraft Bedrock Edition (Windows11/Windows10/Android/iPhone/iPad/Playstation 4/Xbox One/Nintendo Switch)
+に対応したクロスプレイサーバーです。
+Plaistation 3, Playstation Vita, Wii Uでは利用できません。
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+詳しくはこちらをご覧ください。
