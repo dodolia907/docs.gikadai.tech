@@ -3,7 +3,16 @@ site_name: gikadai.tech Docs
 
 # テーマの指定 ( mkdocs-material を指定する )
 theme:
-  name: "material"
+  name: material
+  language: ja 
+
+# Navigation
+nav:
+    - Welcome: index.md
+    - Documents:
+        - Minecraft: minecraft.md
+        - Discord Bot: discordbot.md
+        - VPS: vps.md
 
 # その他の設定
 extra:
@@ -12,7 +21,8 @@ extra:
   font:
     text: "Noto Sans JP"  # フォントの変更
     code: "Consolas"  # 埋め込みコードのフォントの変更
-  copyright: Copyright &copy; 2022 gikadai.tech project  # フッターに表示するコピーライト
+
+copyright: Copyright &copy; 2022 gikadai.tech project  # フッターに表示するコピーライト
 
 # CSS の設定
 extra_css:
