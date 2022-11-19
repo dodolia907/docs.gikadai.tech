@@ -24,9 +24,7 @@ https://github.com/cloudflare/cloudflared/releases
   
 .ssh内のconfigファイルに以下のように記述してください。  
   
-``` ~/.ssh/config
 Host hogehoge (任意の名前)  
 HostName ssh.hogehoge.com (指定されたホスト名)  
 ProxyCommand cloudflared access ssh --hostname %h  
 User hogehoge (指定されたユーザー名)  
-```
