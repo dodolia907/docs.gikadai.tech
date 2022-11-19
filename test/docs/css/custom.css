@@ -1,0 +1,20 @@
+// ヘッダーのスタイル
+.md-header {
+  background-color: #29276b;
+  color: #fff;
+}
+
+// 見出し1のスタイル
+.md-typeset h1 {
+  /*font-size: 24pt;*/
+  font-weight: bold;
+  color: #000;
+  border-bottom: solid 2px #f18b21;
+  padding-bottom: 5px;
+}
+
+// 見出し2のスタイル
+.md-typeset h2 {
+  color: #000;
+  border-bottom: 1px dotted #888;
+}
