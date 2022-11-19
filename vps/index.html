@@ -377,11 +377,10 @@ GPU: Matrox Electronics MGA G200e
 <p>以下よりインストールしてください。<br />
 https://github.com/cloudflare/cloudflared/releases  </p>
 <p>.ssh内のconfigファイルに以下のように記述してください。  </p>
-<p><code>~/.ssh/config
-Host hogehoge (任意の名前)  
-HostName ssh.hogehoge.com (指定されたホスト名)  
-ProxyCommand cloudflared access ssh --hostname %h  
-User hogehoge (指定されたユーザー名)</code></p>
+<p>Host hogehoge (任意の名前)<br />
+HostName ssh.hogehoge.com (指定されたホスト名)<br />
+ProxyCommand cloudflared access ssh --hostname %h<br />
+User hogehoge (指定されたユーザー名)  </p>
 
 
 
