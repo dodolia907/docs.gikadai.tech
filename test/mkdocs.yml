@@ -12,7 +12,7 @@ extra:
   font:
     text: "Noto Sans JP"  # フォントの変更
     code: "Consolas"  # 埋め込みコードのフォントの変更
-  copyright: Cppyright &copy; 2022 gikadai.tech project  # フッターに表示するコピーライト
+  copyright: Copyright &copy; 2022 gikadai.tech project  # フッターに表示するコピーライト
 
 # CSS の設定
 extra_css:
